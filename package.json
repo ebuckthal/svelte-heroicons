@@ -3,11 +3,10 @@
   "version": "0.0.1",
   "description": "Heroicons for svelte",
   "type": "module",
-  "scripts": {},
-  "files": [
-    "20/",
-    "24/"
-  ],
+  "scripts": {
+    "package": "svelte-package",
+    "publish": "npm publish ./package --"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ebuckthal/svelte-heroicons.git"
@@ -18,5 +17,10 @@
     "url": "https://github.com/ebuckthal/svelte-heroicons/issues"
   },
   "homepage": "https://github.com/ebuckthal/svelte-heroicons#readme",
-  "main": "index.js"
+  "devDependencies": {
+    "@sveltejs/package": "^1.0.1"
+  },
+  "peerDependencies": {
+    "svelte": "^3.55.0"
+  }
 }
