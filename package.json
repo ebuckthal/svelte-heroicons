@@ -22,5 +22,8 @@
   },
   "peerDependencies": {
     "svelte": "^3.55.0"
+  },
+  "dependencies": {
+    "typescript": "^4.9.4"
   }
 }
